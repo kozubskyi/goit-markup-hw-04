@@ -1,0 +1,130 @@
+/* HERO */
+
+.hero-section {
+  background-color: var(--section-dark-bg-color);
+  text-align: center;
+}
+
+.hero-section .container {
+  padding-top: 200px;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 30px;
+  min-width: 696px;
+}
+
+.hero-btn {
+  display: inline-block;
+  font-family: "roboto", sans-serif;
+  color: var(--white-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background-color: var(--hover-color);
+  border: none;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-bottom: 200px;
+}
+
+/* 4 ГЛАВНЫХ ПРИНЦИПА */
+
+.principles-section {
+  padding-top: 94px;
+}
+
+.principles-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.principles-list .item {
+  width: 270px;
+}
+
+.principle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 10px;
+}
+
+.principle-text {
+  color: var(--secondary-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.71;
+}
+
+/* ЧЕМ МЫ ЗАНИМАЕМСЯ */
+
+.what-we-do-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.what-we-do-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.what-we-do-list .item {
+  width: 370px;
+}
+
+/* НАША КОМАНДА */
+
+.our-team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+
+.our-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.our-team-list .item {
+  width: 270px;
+}
+
+.team-card {
+  background-color: white;
+  line-height: 1.19;
+  width: 270px;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-card img {
+  margin-bottom: 30px;
+}
+
+.person-name {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.person-position {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  padding-bottom: 30px;
+}
